@@ -7,7 +7,7 @@ android:layout_height="match_parent"
 tools:context=".MainActivity">
 
 <EditText
-    android:id="@+id/et1"
+    android:id="@+id/operand1EditText"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:ems="10"
@@ -15,10 +15,10 @@ tools:context=".MainActivity">
     android:text=""
     tools:layout_editor_absoluteX="103dp"
     tools:layout_editor_absoluteY="46dp"
-    tools:ignore="DuplicateIds" />
+    tools:ignore="DuplicateIds,MissingConstraints" />
 
 <EditText
-    android:id="@+id/et2"
+    android:id="@+id/operand2EditText"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:ems="10"
